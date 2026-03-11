@@ -1,0 +1,101 @@
+{
+    "name": "Atchoum!",
+    "short_name": "Atchoum",
+    "description": "Suivi des pollens et alertes personnalisées",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#ffffff",
+    "theme_color": "#b21f1f",
+    "categories": [
+        "health",
+        "lifestyle",
+        "weather"
+    ],
+    "lang": "fr",
+    "icons": [
+        {
+            "src": "/icons/icon-72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshots/dashboard.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Dashboard avec niveaux de pollen"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Prévisions",
+            "short_name": "Prévisions",
+            "url": "/forecast",
+            "icons": [
+                {
+                    "src": "/icons/forecast.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Mes alertes",
+            "short_name": "Alertes",
+            "url": "/alerts",
+            "icons": [
+                {
+                    "src": "/icons/alerts.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
+}
